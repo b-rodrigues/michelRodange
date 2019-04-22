@@ -9,7 +9,7 @@ Description: Michel Rodange was a Luxembourguish writer and poet who lived in th
     many more works, including "D'Léierchen - Dem Léiweckerche säi Lidd" and 
     "Dem Grow Sigfrid seng Goldkuommer". This package contains three datasets, each made from the
     plain text versions of this works available on 
-    https://data.public.lu/fr/datasets/the-works-in-luxembourguish-of-michel-rodange/.
+    <https://data.public.lu/fr/datasets/the-works-in-luxembourguish-of-michel-rodange/>.
 License: CC0
 Encoding: UTF-8
 LazyData: true
