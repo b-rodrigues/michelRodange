@@ -1,7 +1,7 @@
 ## Test environments
 * local Opensuse Tumbleweed install, R 3.5.3
-* ubuntu 14.04 (on travis-ci), R 3.5.3
-* win-builder (devel and release)
+* Ubuntu Linux 16.04 LTS, R-release, GCC (on R-hub)
+* Windows Server 2008 R2 SP1, R-devel, 32/64 bit (on R-hub)
 
 ## R CMD check results
 

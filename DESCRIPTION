@@ -5,8 +5,8 @@ Version: 1.0.0
 Author: Bruno Andr\\u00e9 Rodrigues Coelho
 Maintainer: Bruno Andr\\u00e9 Rodrigues Coelho <bruno@brodrigues.co>
 Description: Michel Rodange was a Luxembourguish writer and poet who lived in the 19th century. 
-    His most notable work is "Renert oder de Fuuß am Frack an a Ma'nsgrëßt", but he also wrote
-    many more works, including "D'L\\u00e9ierchen - Dem L\\u00e9iweckerche s\\u00e4i Lidd" and 
+    His most notable work is "Renert oder de Ma\\'nsgr\\u00eb\\u00dft", but he also wrote
+    many more works, including "D\\'L\\u00e9ierchen - Dem L\\u00e9iweckerche s\\u00e4i Lidd" and 
     "Dem Grow Sigfrid seng Goldkuommer". This package contains three datasets, each made from the
     plain text versions of this works available on 
     <https://data.public.lu/fr/datasets/the-works-in-luxembourguish-of-michel-rodange/>.
@@ -18,3 +18,7 @@ Imports:
     magrittr
 Depends:
     R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

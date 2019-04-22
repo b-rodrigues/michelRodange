@@ -1,0 +1,27 @@
+---
+title: "Dealing with UTF-8 characters"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{utf_8}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+To use this package on operating systems that use utf-8 encoding, unescape the characters with
+`stringi::stri_unescape_unicode()`
+
+```{r, eval=FALSE}
+library(michelRodange)
+
+data(renert)
+
+renert$line <- stringi::stri_unescape_unicode(line)
+renert$gesank <- stringi::stri_unescape_unicode(gesank)
+```
