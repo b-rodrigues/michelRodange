@@ -45,7 +45,12 @@ nrow_id <- seq(1, nb_lines)
 
 renert$nb_line <- nrow_id
 
-usethis::use_data(renert)
+renert <- renert %>%
+    mutate(line = stringi::stri_escape_unicode(line),
+           gesank = stringi::stri_escape_unicode(gesank))
+
+
+usethis::use_data(renert, overwrite = TRUE)
 
 
 sigfrid_link <- "https://download.data.public.lu/resources/the-works-in-luxembourguish-of-michel-rodange/20190414-150720/sigfrid.txt"
@@ -84,7 +89,10 @@ nrow_id <- seq(1, nb_lines)
 
 sigfrid$nb_line <- nrow_id
 
-usethis::use_data(sigfrid)
+sigfrid <- sigfrid %>%
+    mutate(line = stringi::stri_escape_unicode(line))
+
+usethis::use_data(sigfrid, overwrite = TRUE)
 
 
 
@@ -102,4 +110,8 @@ nrow_id <- seq(1, nb_lines)
 
 dleierchen$nb_line <- nrow_id
 
-usethis::use_data(dleierchen)
+dleierchen <- dleierchen %>%
+    mutate(line = stringi::stri_escape_unicode(line))
+
+
+usethis::use_data(dleierchen, overwrite = TRUE)
