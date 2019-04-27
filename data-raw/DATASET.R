@@ -45,9 +45,9 @@ nrow_id <- seq(1, nb_lines)
 
 renert$nb_line <- nrow_id
 
-renert <- renert %>%
-    mutate(line = stringi::stri_escape_unicode(line),
-           gesank = stringi::stri_escape_unicode(gesank))
+#renert <- renert %>%
+#    mutate(line = stringi::stri_escape_unicode(line),
+#           gesank = stringi::stri_escape_unicode(gesank))
 
 
 usethis::use_data(renert, overwrite = TRUE)
@@ -89,8 +89,8 @@ nrow_id <- seq(1, nb_lines)
 
 sigfrid$nb_line <- nrow_id
 
-sigfrid <- sigfrid %>%
-    mutate(line = stringi::stri_escape_unicode(line))
+#sigfrid <- sigfrid %>%
+#    mutate(line = stringi::stri_escape_unicode(line))
 
 usethis::use_data(sigfrid, overwrite = TRUE)
 
@@ -110,8 +110,8 @@ nrow_id <- seq(1, nb_lines)
 
 dleierchen$nb_line <- nrow_id
 
-dleierchen <- dleierchen %>%
-    mutate(line = stringi::stri_escape_unicode(line))
+#dleierchen <- dleierchen %>%
+#    mutate(line = stringi::stri_escape_unicode(line))
 
 
 usethis::use_data(dleierchen, overwrite = TRUE)

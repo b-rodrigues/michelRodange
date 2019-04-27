@@ -2,14 +2,16 @@ Package: michelRodange
 Type: Package
 Title: The Works (in Luxembourguish) of Michel Rodange
 Version: 1.0.0
-Author: Bruno André Rodrigues Coelho
-Maintainer: Bruno André Rodrigues Coelho <bruno@brodrigues.co>
+Authors@R: person("Bruno André", "Rodrigues coelho", email = "bruno@brodrigues.co", role = c("aut", "cre"))
 Description: Michel Rodange was a Luxembourguish writer and poet who lived in the 19th century. 
-    His most notable work is "Renert oder de Fuuß am Frack an a Ma'nsgrëßt"", but he also wrote
-    many more works, including "D'Léierchen - Dem Léiweckerche säi Lidd" and 
-    "Dem Grow Sigfrid seng Goldkuommer". This package contains three datasets, each made from the
-    plain text versions of this works available on 
+    His most notable work is Rodange (1872, ISBN:1166177424), ("Renert oder de Fuuß am Frack an a Ma'nsgrëßt"),
+    but he also wrote many more works, including Rodange, Tockert (1928) <URL:https://www.autorenlexikon.lu/page/document/361/3614/1/FRE/index.html> 
+    ("D'Léierchen - Dem Léiweckerche säi Lidd") and Rodange, Welter (1929) <URL:https://www.autorenlexikon.lu/page/document/361/3615/1/FRE/index.html>
+    ("Dem Grow Sigfrid seng Goldkuommer"). This package contains three datasets, each made from the
+    plain text versions of his works available on 
     <https://data.public.lu/fr/datasets/the-works-in-luxembourguish-of-michel-rodange/>.
+URL: https://github.com/b-rodrigues/michelRodange
+BugReports: https://github.com/b-rodrigues/michelRodange/issues
 License: CC0
 Encoding: UTF-8
 LazyData: true

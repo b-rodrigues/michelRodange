@@ -22,8 +22,6 @@ remotes::install_github("b-rodrigues/michelRodange")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
 library(michelRodange)
 library(tidyverse)
@@ -34,4 +32,3 @@ renert %>%
   group_by(gesank) %>% 
   summarise(total_lines = n())
 ```
-
